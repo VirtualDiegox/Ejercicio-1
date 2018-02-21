@@ -10,12 +10,37 @@ package ejercicio.pkg1;
  * @author ESTUDIANTE
  */
 public class Ejercicio1 {
+     public static void main(String[] args) {
+        private double base;
+        private double altura;
 
+    public Ejercicio1(double base, double altura) {
+        this.base = base;
+        this.altura = altura;
+    }
+
+    public double getBase() {
+        return base;
+    }
+
+    public void setBase(double base) {
+        this.base = base;
+    }
+
+    public double getAltura() {
+        return altura;
+    }
+
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
+
+    
+        
+        
+         
+    }
     /**
      * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+ 
 }
